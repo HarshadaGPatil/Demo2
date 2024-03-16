@@ -1,0 +1,544 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgb(245, 97, 34);
+    height: 50px;
+    width: 100%;
+    padding-top: 30px;
+    color: #ffffff;
+}
+
+.headersticky {
+    background-color: #f9ecec;
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+.container {
+    background-image: url(https://www.goatsontheroad.com/wp-content/uploads/2021/05/laptops-for-working-remotely.jpg);
+    
+    color: white;
+    height: 800px; 
+    width: 100%;
+}
+.content{
+    height: 800px; 
+    width: 100%;
+   padding-top: 180px;
+}
+.We-btn{
+    height: 30px; 
+    width: 250px;
+    padding-left: 20px;
+}
+.Get-btn{
+    height: 60px; 
+    width: 250px;
+    background-color:orangered;
+    margin-top: 50px;
+    border-radius: 40px 40px;
+    margin-left:10px ;
+    float: left;
+}
+.box-1 {
+    background-color: white;
+    height: 250px;
+    width: 350px;
+    margin-top: -100px;
+    margin-left: 200px;
+    float: left;
+    border-radius: 10px;
+    
+}
+
+.box-2 {
+    background-color: white;
+    height: 250px;
+    width: 350px;
+    margin-top: -100px;
+    float: left;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.box-3 {
+    background-color: white;
+    height: 250px;
+    width: 350px;
+    margin-top: -100px;
+    margin-left: 50px;
+    float: left;
+    border-radius: 10px;
+    
+}
+
+.About-us {
+    background-image: url(https://radiustheme.com/demo/wordpress/themes/finbuzz/wp-content/uploads/2022/01/shape30.png);
+    height: 1000px;
+    width: 100%;
+}
+
+.progress1 {
+    background-image: url(https://radiustheme.com/demo/wordpress/themes/finbuzz/wp-content/uploads/2022/01/about1new.jpg);
+    height: 800px;
+    width: 50%;
+
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-left: 150px;
+
+}
+
+progress {
+    accent-color: coral;
+    
+}
+
+#bar {
+    accent-color: coral;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+    color: #f84d1a;
+
+}
+
+.what_we-do {
+    background-image: url(https://radiustheme.com/demo/wordpress/themes/finbuzz/wp-content/uploads/2022/01/blank_bg.png);
+
+}
+.business-audit{
+    background-image:url(https://radiustheme.com/demo/wordpress/themes/finbuzz/wp-content/uploads/2021/10/img_5-570x447.jpg);
+    height: 300px;
+    width:  400px;
+    background-repeat: no-repeat;
+    background-size: 350px 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+  
+}
+.saving-money{
+    background-image:url(https://radiustheme.com/demo/wordpress/themes/finbuzz/wp-content/uploads/2021/10/blog4-570x447.jpg);
+    height: 300px;
+    width:  400px;
+    background-repeat: no-repeat;
+    background-size: 350px 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Hr-consulting{
+    background-image:url(https://radiustheme.com/demo/wordpress/themes/finbuzz/wp-content/uploads/2021/10/gallery-widget6-570x447.jpg);
+    height: 300px;
+    width:  400px;
+    background-repeat: no-repeat;
+    background-size: 350px 300px;
+    margin-top: 20px;
+    margin-left: 20px; 
+}
+.goal{
+    background-image: url(https://radiustheme.com/demo/wordpress/themes/finbuzz/wp-content/uploads/2022/01/shape17.png);
+    height: 800px;
+    width: 100%;
+    margin-top: 100px;
+}
+.goal1{
+   float: left;
+    height: 550px;
+    width: 550px;
+    margin-left: 100px;
+}
+.goal2{
+    float: left;
+     height: 550px;
+     width: 550px;
+     margin-left: 100px;
+ }
+.Case-studies{
+    height: 700px;
+    width: 100%;
+    background-color: aliceblue;
+    padding-top: 100px; 
+    
+}
+.Case-btn{
+    height: 200px;
+    width: 50%; 
+    float: left;
+    padding-left: 50px;
+}
+.case-info{
+    height: 200px;
+    width: 50%;
+    float: left;
+    padding-top: 50px; 
+    color: grey;
+
+}
+.box1{
+    background-image: url(https://radiustheme.com/demo/wordpress/themes/finbuzz/wp-content/uploads/2021/10/portfolio12-551x700.jpg);
+    height: 350px;
+    width:20%;
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+    border:10px solid white;
+    position: relative;
+    float: left;
+}
+.box2{
+    background-image: url(https://radiustheme.com/demo/wordpress/themes/finbuzz/wp-content/uploads/2021/10/img_4-551x700.jpg);
+    height: 350px;
+    width:20%;
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+    border:10px solid white;
+    position: relative;
+    float: left;
+}
+.box3{
+    background-image: url(https://radiustheme.com/demo/wordpress/themes/finbuzz/wp-content/uploads/2021/10/img_6-551x700.jpg);
+    height: 350px;
+    width:20%;
+    background-repeat: no-repeat;
+    background-size: 300px 350px;
+    border:10px solid white;
+    position: relative;
+    float: left;
+}
+.box4{
+    background-image: url(https://radiustheme.com/demo/wordpress/themes/finbuzz/wp-content/uploads/2021/10/img_8-551x700.jpg);
+    height: 350px;
+    width:20%;
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+    border:10px solid white;
+    position: relative;
+    float: left;
+}
+.box5{
+    background-image: url(https://radiustheme.com/demo/wordpress/themes/finbuzz/wp-content/uploads/2021/10/portfolio10-551x700.jpg);
+    height: 350px;
+    width:20%;
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+    border:10px solid white;
+    position: relative;
+    float: left;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  .box1:hover .overlay {
+    opacity: 1;
+  }
+  
+  .box2:hover .overlay {
+    opacity: 1;
+  }
+  .box3:hover .overlay {
+    opacity: 1;
+  }
+  .box4:hover .overlay {
+    opacity: 1;
+  }
+  .box5:hover .overlay {
+    opacity: 1;
+  }
+.Why-Choose{
+    height:500px;
+    width: 100%;
+  background-image:url(https://radiustheme.com/demo/wordpress/themes/finbuzz/wp-content/uploads/2022/01/blog10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.Why-Choose-img{
+    height:500px;
+    width: 100%;
+    background-color: hsla(0, 0%, 0%, 0.7);
+}
+.why-img{
+    height: 600px;
+    width: 40%;
+    float: left;
+}
+.Why-Info{
+    height: 600px;
+    width: 50%;
+    float: left;
+}
+.img-contact{
+    height: 140px;
+    width: 80%;
+    background-color: #f84d1a;
+    margin-top: 200px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-image: url(https://radiustheme.com/demo/wordpress/themes/finbuzz/wp-content/uploads/2022/01/blog11.jpg);
+    background-repeat: no-repeat;
+}
+.container1 {
+    padding: 16px;
+    margin-top: 50px;
+  }
+  .container4{
+    
+    margin-left: 100px;
+  }
+  input[type=text], input[type=number] {
+    width: 40%;
+    padding: 15px;
+    margin: 5px 0 0px 40px;
+    display: inline-block;
+    border: none;
+    height: 50px;
+    
+  }
+  
+  textarea{
+    width: 70%;
+    padding: 10px;
+  
+    display: inline-block;
+    border: none;
+    
+    height: 100px;
+    color: black;
+  }
+  .Btn{
+   margin-top: 10px; 
+    margin-left: 65px;
+    height: 40px;
+    width:150px;
+    background-color: orangered;
+    color: #ffffff;
+  } 
+  .Btn h4{
+    text-align: center;
+    padding-top: 10px;
+  }
+.Expert{
+    height: 1000px;
+    width: 100%;
+    background-color: aliceblue;
+    padding-top: 180px;
+}
+.Expert-Info{
+    height: 200px;
+    width: 100%;
+}
+.card{
+    height: 550px;
+    width: 100%;
+    display: flex;
+}
+.card1{
+    height: 400px;
+    width: 25%;
+    margin-left: 200px;
+    position: relative;
+	display: inline-block;
+}
+.card2{
+    height: 400px;
+    width: 25%;
+    position: relative;
+	display: inline-block;
+   margin-left: 50px;
+}
+.card3{
+    height: 400px;
+    width: 25%;
+   margin-left: 50px;
+   position: relative;
+	display: inline-block;
+}
+.icons {
+    padding-top: 0px;	
+	padding-right: 7px;
+    padding-left: 15px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+    background-color: #ef440b;
+    width: 50px;
+  }
+  .icons a {
+    color: white;
+}
+.card1:hover .icons {
+	display: block;
+}  
+  .card2:hover .icons {
+	display: block;
+}
+
+.card3:hover .icons {
+	display: block;
+}
+i{
+    padding-top: 20px;
+}
+.names{
+    height: 100px;
+    width: 100%;
+    
+}
+.Testonomial{
+    padding-top: 50px;
+    height: 600px;
+    width: 100%;
+    background-color: #ef440b;
+    background-image: url(https://radiustheme.com/demo/wordpress/themes/finbuzz/wp-content/uploads/2022/01/shape8.png);
+}
+.Slider{
+    height: 400px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin-top: -200px;
+    margin-left: 170px;
+}
+.Logos{
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+.Contact-Info{
+    height: 600px;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1047549798/photo/indian-team-working-together-and-looking-on-a-screen-of-laptop.jpg?s=612x612&w=0&k=20&c=gJqsl_4VH3es693-7_-Bdx0v-2Mj_QBAheuFPxrBAdA=);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.Contact-bg{
+    height: 600px;
+    width: 100%;
+    background-color: hsla(0, 0%, 0%, 0.7);
+    display: flex;
+}
+.Info{
+    height: 700px;
+    width: 50%;
+}
+.Form{
+    height: 450px;
+    width: 40%;
+    background-color: #f9ecec;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.News{
+    height: 900px;
+    width: 100%;
+    background-image: url(https://radiustheme.com/demo/wordpress/themes/finbuzz/wp-content/uploads/2022/01/shape4.png);
+    background-repeat: no-repeat;
+}
+.news-info{
+    height: 250px;
+    width: 100%;
+}
+.img1{
+    height:500px;
+    width: 25%;
+    background-color: #f9ecec;
+    margin-left: 150px;
+    float: left;
+}
+.img1 img:hover{
+    transform: scale(1.1);
+}
+.img2{
+    height:500px;
+    width: 25%;
+    background-color: #f9ecec;
+    margin-left: 50px;
+    float: left;
+}
+.img2 img:hover{
+    transform: scale(1.1);
+}
+.img3{
+    height:500px;
+    width: 25%;
+    background-color: #f9ecec;
+    margin-left: 50px;
+    float: left;
+}
+.img3 img:hover{
+    transform: scale(1.1);
+}
+.footer{
+    height: 700px;
+    width: 100%;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.SuKQrMpHgpJh13-9o4cSqQHaEK&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-bg{
+    height: 700px;
+    width: 100%;
+    background-color: hsla(0, 0%, 4%, 0.9);
+}
+.finbuzz{
+    height: 300px;
+    width: 20%;
+    float: left;
+}
+.finbuzz img {
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.finbuzz p{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.quick{
+    height: 300px;
+    width: 20%;
+    float: left;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.quick h1{
+    color:white;
+    
+}
+.Gallery{
+    height:300px;
+    width: 15%;
+    float: left;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.contact-footer{
+    height: 300px;
+    width: 20%;
+    float: left;
+    margin-top: 150px;
+    margin-left: 100px;
+}
